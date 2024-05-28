@@ -1,0 +1,25 @@
+[14-May-2018 04:41:13 UTC] PHP Warning:  Unterminated comment starting line 460 in /home/elitjobs/public_html/dlp/application/config/config.php on line 460
+[14-May-2018 04:50:17 UTC] PHP Warning:  Unterminated comment starting line 102 in /home/elitjobs/public_html/dlp/system/core/Security.php on line 102
+[14-May-2018 04:50:17 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/elitjobs/public_html/dlp/system/core/Security.php on line 105
+[14-May-2018 04:52:05 UTC] PHP Fatal error:  Class 'CI_Security' not found in /home/elitjobs/public_html/dlp/system/core/Common.php on line 196
+[14-May-2018 04:52:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/elitjobs/public_html/dlp/system/core/Security.php on line 628
+[14-May-2018 04:52:59 UTC] PHP Warning:  Unterminated comment starting line 460 in /home/elitjobs/public_html/dlp/application/config/config.php on line 460
+[14-May-2018 04:56:31 UTC] PHP Fatal error:  Class 'CI_Security' not found in /home/elitjobs/public_html/dlp/system/core/Common.php on line 196
+[14-May-2018 04:56:37 UTC] PHP Fatal error:  Call to undefined function site_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 04:56:43 UTC] PHP Fatal error:  Call to undefined function site_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 04:56:43 UTC] PHP Fatal error:  Call to undefined function site_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 04:56:49 UTC] PHP Fatal error:  Call to undefined function site_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 04:56:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/elitjobs/public_html/dlp/system/core/Security.php on line 888
+[14-May-2018 04:57:01 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 04:57:07 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 04:57:12 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 04:57:14 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 04:57:20 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/elitjobs/public_html/dlp/system/core/Security.php on line 296
+[14-May-2018 05:30:52 UTC] PHP Fatal error:  Call to a member function row_array() on boolean in /home/elitjobs/public_html/dlp/application/modules/student/models/Course_model.php on line 29
+[14-May-2018 06:19:04 UTC] PHP Fatal error:  Call to a member function row_array() on boolean in /home/elitjobs/public_html/dlp/application/modules/student/models/Course_model.php on line 29
+[14-May-2018 06:20:30 UTC] PHP Fatal error:  Call to a member function row_array() on boolean in /home/elitjobs/public_html/dlp/application/modules/student/models/Course_model.php on line 29
+[14-May-2018 06:37:08 UTC] PHP Fatal error:  Call to a member function row_array() on boolean in /home/elitjobs/public_html/dlp/application/modules/student/models/Course_model.php on line 29
+[14-May-2018 06:39:01 UTC] PHP Fatal error:  Call to a member function row_array() on boolean in /home/elitjobs/public_html/dlp/application/modules/student/models/Course_model.php on line 29
+[14-May-2018 06:39:34 UTC] PHP Fatal error:  Call to a member function row_array() on boolean in /home/elitjobs/public_html/dlp/application/modules/student/models/Course_model.php on line 29
+[14-May-2018 06:42:00 UTC] PHP Fatal error:  Call to a member function row_array() on boolean in /home/elitjobs/public_html/dlp/application/modules/student/models/Course_model.php on line 29
+[14-May-2018 06:48:08 UTC] PHP Fatal error:  Call to a member function row_array() on boolean in /home/elitjobs/public_html/dlp/application/modules/student/models/Course_model.php on line 29

@@ -1,0 +1,551 @@
+/*Custom Css*/
+.custom-pagination {
+  background: #f0f0f0 none repeat scroll 0 0;
+  border-radius: 4px;
+  display: inline-block;
+  float: right;
+  margin: 20px 0px 20px 0;
+  padding: 5px 10px;
+}
+.custom-pagination > a {
+background: #787878 none repeat scroll 0 0;
+color: #fff;
+display: inline-block;
+font-size: 15px;
+padding: 2px 10px;
+text-decoration:none;
+}
+.custom-pagination > b {
+  background: #121014 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  padding: 2px 10px;
+}
+.custom-pagination > a:hover{background:#121014;color:#FFF;}
+.page-contr {
+  padding: 0 40px 10px 0;
+  text-align: right;
+}
+.not-data-found {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+}
+.details-view-contnr {
+  background: #f0f0f0 none repeat scroll 0 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.details-action-sec {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.filtar-bar {
+    overflow: hidden;
+    padding: 10px 20px 0;
+}
+.limit-box {
+    float: left;
+}
+.search-box {
+    float: right;
+}
+
+.search-box > p > input {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 0;
+    padding: 5px;
+    width: 250px;
+}
+.limit-box > p > select {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+/*******Chat styles By Mostak********/
+
+.conversation-sidebar {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.cnv-user-lists {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar-conv-users {
+    margin-top: 15px;
+}
+.cnv-usr-photo {
+    border-radius: 50%;
+    height: 30px;
+    margin-right: 5px;
+    width: 30px;
+}
+.cnv-user-lists-li {
+    margin-bottom: 10px;
+    padding: 4px 0 4px 10px;
+    position: relative;
+}
+.cnv-user-lists-li:hover {
+    background: #17B6A4 none repeat scroll 0 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.cnv-user-lists-li.active {
+    background: #17B6A4 none repeat scroll 0 0;
+    cursor: pointer;
+    position: relative;
+}
+.cnv-user-lists-li:hover::after {
+border-bottom: 17px solid transparent;
+border-left: 39px solid #17B6A4;
+border-top: 20px solid transparent;
+content: "";
+position: absolute;
+right: -15px;
+top: 0;
+}
+.cnv-user-lists-li.active::after {
+border-bottom: 17px solid transparent;
+border-left: 39px solid #17B6A4;
+border-top: 20px solid transparent;
+content: "";
+position: absolute;
+right: -15px;
+top: 0;
+}
+
+.conversation-container {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    height: 550px;
+	position:relative;
+}
+
+.send-message-input {
+    border-top: 1px solid #ddd;
+    bottom: 0;
+    left: 0;
+    padding:0;
+    position: absolute;
+    width: 100%;
+}
+#cnvSendForm .form-control {
+    border: 0 none;
+	height:50px;
+	border-radius:0;
+}
+.conversation-header {
+    background: #17b6a4 none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.cnv-lists-step-ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.conversation-lists-cntr {
+height: 450px;
+overflow-x: hidden;
+padding: 15px;
+}
+.cnv-lists-step-li {
+    margin-bottom: 30px;
+}
+li.sent-by-user > .cnv-txt {
+    background: #17b6a4 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    max-width: 335px;
+	min-width:175px;
+    padding: 10px 15px;
+}
+li.sent-by-me > .cnv-txt {
+background: #f0f0f0 none repeat scroll 0 0;
+border-radius: 5px;
+display: inline-block;
+padding: 10px 15px;
+text-align: initial;
+max-width: 335px;
+min-width:175px;
+}
+
+h2.sectitle {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 0;
+    text-align: center;
+    text-shadow: 0 1px 1px #333;
+}
+div.cnv-txt{position:relative;}
+.cnv-usr-by-photo {
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  right: -30px;
+  top: 0;
+  width: 30px;
+}
+.cnv-usr-me-photo {
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 30px;
+}
+#cnvParentContainer{position:relative;}
+
+#cnvParentContainer #loader {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+	display:none;
+}
+#cnvParentContainer #loader > img {
+    height: 50px;
+    margin-top: 25%;
+}
+
+.form-cntnt {
+background: #f0f0f0 none repeat scroll 0 0;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+padding: 0;
+}
+
+h2.frm-title-ms {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 19px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.form-cntnt > form {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 30px 20px;
+}
+form label.error{display:none !important;}
+form .form-control.error{border:1px solid #a00;box-shadow:0 0 10px rgba(200,0,0,0.6) inset;}
+
+
+.form-cntnt form {
+    position: relative;
+}
+.form-cntnt #loader {
+    background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+	display:none;
+}
+.form-cntnt #loader > img {
+    height: 60px;
+    margin-top: 5%;
+}
+
+.details-view-contnr .panel .panel-heading {
+  border: medium none;
+  border-radius: 0;
+  padding: 15px 20px;
+}
+.details-view-contnr .panel .panel-body {
+  padding: 0;
+}
+.details-view-contnr .panel {
+  border: medium none;
+  background:none !important;
+  border-radius: 0;
+  box-shadow: 0 0 0;
+}
+.mostak-mdl-box{position:relative;}
+
+#mdlBoxLoader {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+	display:none;
+}
+#mdlBoxLoader > img, #loader > img{
+    height: 60px;
+    margin-top: 10%;
+}
+.note-group-select-from-files{margin-bottom:20px !important;}
+.form-cntnt #phaseAlession #loader > img, #upPhaseAlession #phaseAlession .form-cntnt #loader > img{
+  margin-top: 25% !important;
+}
+
+.lesson-information-content > h4 {
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+.lesson-information-content {
+    background: #fdfdfd none repeat scroll 0 0;
+}
+.less-content {
+    padding: 15px;
+}
+.generate-buttons {
+  margin: 10px 0 5px;
+}
+.putmrg-to-btn > button {
+  margin-bottom: 5px;
+}
+
+.custominp {
+    border: 2px solid #bbb;
+    border-radius: 4px;
+    padding: 5px;
+    width: 124px;
+}
+
+.frm-legend {
+    border-bottom: 2px solid #fff;
+    margin: 15px 0;
+    position: relative;
+}
+.legend-label {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    left: 40%;
+    padding: 3px 15px;
+    position: absolute;
+    top: -13px;
+}
+.evaluation-title-lbl .legend-label{left: 45% !important;}
+
+.relate-add-sign {
+    position: relative;
+}
+.add-more-mrksinp, .rmv-row-mrksinp {
+    font-size: 24px;
+    position: absolute;
+    right: -10px;
+    top: 5px;
+	cursor:pointer;
+}
+.rmv-row-mrksinp{color:#A00;}
+.rmv-row-mrksinp-blanks{color:#A00;cursor:pointer;font-size: 24px;position: absolute;right: -20px;top: 5px;}
+.admin-status > .fa-check {
+  color: #0a0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.admin-status > .fa-lock {
+  color: #F00;
+  font-size: 20px;
+  font-weight: bold;
+}
+.old-photo {
+  margin-bottom: 10px;
+}
+#modal-without-animation .modal-dialog {
+  margin: 30px auto;
+  width: 330px;
+}
+#upPassrf > div#UpPloader {
+    background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+	display:none;
+}
+#upPassrf #UpPloader > img {
+    margin-top: 15%;
+    width: 65px;
+}
+.chtdate {
+    bottom: -15px;
+    color: #666;
+    font-size: 11px;
+    position: absolute;
+    right: 5px;
+}
+
+/*******Evaluations********/
+.reviews{
+  padding: 15px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.review-item{
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 5px #343a40;
+}
+
+.review-item .review-date{
+  color: #cecece;
+}
+.review-item .review-text{
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 5px;
+  color: #343a40;
+}
+
+.review-item .reviewer{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #cecece;
+}
+
+/****Rating Stars***/
+.raterater-bg-layer {
+    color: rgba( 0, 0, 0, 0.25 );
+}
+.raterater-hover-layer {
+    color: rgba( 255, 255, 0, 0.75 );
+}
+.raterater-hover-layer.rated { /* after the user selects a rating */
+    color: rgba( 255, 255, 0, 1 );
+}
+.raterater-rating-layer {
+    color: rgba( 255, 155, 0, 0.75 );
+}
+.raterater-outline-layer {
+    color: rgba( 0, 0, 0, 0.25 );
+}
+
+/* don't change these - you might break something.. */
+.raterater-wrapper {
+    overflow:visible;
+}
+
+.software .raterater-wrapper {
+    margin-top: 4px;
+}
+
+.raterater-layer,
+.raterater-layer i {
+    display: block;
+    position: absolute;
+    overflow: visible;
+    top: 0px;
+    left: 0px;
+}
+.raterater-hover-layer {
+    display: none;
+}
+.raterater-hover-layer i,
+.raterater-rating-layer i {
+    width: 0px;
+    overflow: hidden;
+}
+.row-filter-bar .filter-bar {
+    float: right;
+    overflow: hidden;
+    width: 260px;
+}
+.row-filter-bar .sort-limit {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+.row-filter-bar .sorting {
+    float: left;
+}
+.custom-sel-style {
+  border: 1px solid #aaa;
+  font-size: 13px;
+  font-weight: normal;
+  width: 115px;
+  margin-left:20px;
+}
+.ans-margin {
+  display: inline-block;
+  width: 65px;
+}
+.near_by_hotel_wrapper{
+	background:#f5f5f5;
+	}
+.custom_table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: -3px !important;
+}
+.custom_table thead tr th {
+	padding: 0px 8px;
+	font-size: 12px;
+	border: 0 none !important;
+	border-top: 0 none !important;
+}
+.custom_table tbody tr {
+    -moz-box-shadow: 0 2px 3px #e0e0e0;
+    -webkit-box-shadow: 0 2px 3px #e0e0e0;
+    box-shadow: 0 2px 3px #e0e0e0;
+}
+.near_by_hotel_wrapper table tr td {
+	border-right: 1px solid #d2d1d1;
+}
+
+.custom_table tbody tr td {
+	background: #fff none repeat scroll 0 0;
+	border-top: 0 none !important;
+	margin-bottom: 20px;
+	padding: 10px 8px;
+	font-size: 12px;
+}
+.near_by_hotel_wrapper table tr td {
+    border-right: 1px solid #d2d1d1;
+}
+.payment-details-modal .modal-dialog{width:780px !important;margin-top:120px !important;}
+.payment-details-modal .modal-body{background:#f5f5f5;}
+.online-transaction-h-txt {
+  font-size: 18px;
+}
+.h-left-txt {
+  margin-right: 40px;
+}
+span.sp-counting {
+	position: absolute;
+	background: #F00;
+	display: inline-block;
+	color: #FFF;
+	font-size: 12px;
+	border-radius: 50%;
+	padding: 1px 10px;
+	top: 13px;
+	left: -18px;
+}
+.rating-radio > .fa-check-circle {
+	color: #0a0;
+}
+label.rating-radio {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}

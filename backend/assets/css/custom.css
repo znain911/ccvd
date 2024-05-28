@@ -1,0 +1,53 @@
+/*Custom Css*/
+#loginform .error {
+  left: unset;
+  margin: 0;
+  position: unset;
+  text-align: left;
+  top: unset;
+  width: 100%;
+}
+
+#loginform label.error {
+    display: none !important;
+}
+#loginform input.error {
+    background: rgba(200, 0, 0, 0.3) none repeat scroll 0 0;
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+.login-content{position:relative}
+
+
+.login-content > div#loader {
+    background: rgba(25, 155, 55, 0.3) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+	display:none;
+}
+#loader > img {
+    height: 45px;
+    margin-top: 15%;
+}
+.custom-pagination {
+  background: #f0f0f0 none repeat scroll 0 0;
+  border-radius: 4px;
+  display: inline-block;
+  float: right;
+  margin: 20px 15px 20px 0;
+  padding: 5px 10px;
+}
+.custom-pagination > a {
+    background: #121014 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 2px 10px;
+}
+.pass-visibility-method {
+  display: block;
+}
