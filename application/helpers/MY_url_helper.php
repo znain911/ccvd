@@ -28,12 +28,12 @@ function current_url()
 } */
 
 function sendsms($number, $message) {
-  $url = "https://bangladeshsms.com/smsapi";
+  $url = "";
   $data = [
-    "api_key" => "C20070275f66f94e214d64.69540581",
+    "api_key" => "",
     "type" => "text",
     "contacts" => $number,
-    "senderid" => "8809601000127",
+    "senderid" => "",
     "msg" => $message,
   ];
 
